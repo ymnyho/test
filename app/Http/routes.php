@@ -15,10 +15,11 @@
 
 Route::get('/', function () {
     return view('index');
+
 });
 
 Route::get('hello',function(){
-	return view('home.hello');
+	return view('home.war.hello');
 });
 
 
